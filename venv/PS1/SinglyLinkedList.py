@@ -61,7 +61,20 @@ class SinglyLinkedList:
         return answer
 
     def reverse(self):
-        stop = self.__len__()
-        for _ in range(stop):
-            current = self.remove_last()
-            self.add_first(current)
+        current = self._head
+        prev = None
+        next = current._next
+
+        while current:
+            # takes the current node and sets that node to point to the previous node
+            # in turn reversing the direction that the nodes are pointing
+            current = self._Node(current._element, prev)
+
+            # this moves the previous node up to the current node
+            # while also moving the current node to the next node
+            prev = current
+            current = next
+            if next:
+                next = next._next
+        # this sets the head as the last value in the linked list
+        self._head = prev
