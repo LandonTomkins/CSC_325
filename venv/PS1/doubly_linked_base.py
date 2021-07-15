@@ -75,4 +75,13 @@ class _DoublyLinkedBase:
     return element                                      # return deleted element
 
   def reverse(self):
-    current = self._header._element
+    current_node = self._header
+    previous_node = current_node._prev
+    next_node = current_node._next
+
+    while current_node:
+      current_node = self._Node(current_node._element,next_node, previous_node)
+
+      current_node = next_node
+      
+

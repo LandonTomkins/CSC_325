@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba426c3d-cde9-4188-a746-23910fa547f2" name="Default Changelist" comment="reverse method corrected">
-      <change afterPath="$PROJECT_DIR$/venv/PS1/doubly_linked_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/PS1/favorites_list.py" afterDir="false" />
+    <list default="true" id="ba426c3d-cde9-4188-a746-23910fa547f2" name="Default Changelist" comment="idk what happened">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/PS1/doubly_linked_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/PS1/doubly_linked_base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +24,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.SinglyLinkedList">
+  <component name="RunManager" selected="Python.doubly_linked_base">
     <configuration name="6-clear(s)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CSC_325" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626294491971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="idk what happened">
+      <created>1626297066964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626297066964</updated>
+    </task>
+    <task id="LOCAL-00004" summary="idk what happened">
+      <created>1626297102688</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1626297102688</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,12 +216,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="reverse method added" />
     <MESSAGE value="reverse method corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse method corrected" />
+    <MESSAGE value="idk what happened" />
+    <option name="LAST_COMMIT_MESSAGE" value="idk what happened" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
